@@ -1,4 +1,4 @@
-const key = process.env.WEATHER_API_KEY;
+const key = "9ff43f92360ed62d34a4c5197bdf8aa2";
 
 let weather = {
     fetchWeather: function (city) {
