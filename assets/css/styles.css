@@ -50,3 +50,7 @@ input.search-bar {
     font-size: 120%;
     width: calc(100% - 80px);
 }
+
+h1.temp {
+    margin: 0;
+}
