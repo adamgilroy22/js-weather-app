@@ -15,7 +15,13 @@ let weather = {
     },
 
     displayWeather: function (data) {
-        const { name } = data;
+        let { name } = data;
+        if (name == "Londonderry"){
+            name = "Derry"
+        }
+        if (name == "Queenstown"){
+            name = "Cobh"
+        }
         const { icon, description } = data.weather[0];
         const { temp, humidity } = data.main;
         const { speed } = data.wind;
